@@ -44,7 +44,7 @@ input {
 }
 /* End login */
 .main {
-    display: flex;
+    display: none;
     min-height: 100vh;
     margin: 0 10px;
     justify-content: space-between;
