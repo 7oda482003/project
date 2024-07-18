@@ -1,0 +1,232 @@
+/* Start padding */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+/* End padding */
+/* Start margin */
+.m-0 {
+    margin: 0;
+}
+.m-5 {
+    margin: 5px;
+}
+.m-10 {
+    margin: 10px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mb-50 {
+    margin-top: -100px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.ml-25 {
+    margin-left: 25px;
+}
+/* End margin */
+/* Start font */
+.f-15 {
+    font-size: 15px;
+}
+.f-20 {
+    font-size: 20px;
+}
+.f-25 {
+    font-size: 25px;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.t-center {
+    text-align: center;
+}
+/* End font */
+/* Start color */
+.c-blue {
+    color: blue;
+}
+.c-red {
+    color: red;
+}
+.c-black {
+    color: black;
+}
+.c-green {
+    color: green;
+}
+.c-yellow {
+    color: yellow;
+}
+.c-grey {
+    color: gray;
+}
+/* End color */
+/* Start bacground color */
+.bg-fff {
+    background-color: #fff;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-ddd {
+    background-color: #ddd;
+}
+.bg-ccc {
+    background-color: #ccc;
+}
+.bg-dedede {
+    background-color: #dedede;
+}
+.bg-orange {
+    background-color: orange;
+}
+/* End bacground color */
+/* Start diiplay */
+.d-flex {
+    display: flex;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+.betwen-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.j-center {
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-1 {
+    flex: 1;
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+@media (max-width: 767px) {
+    .d-grid {
+        grid-template-columns:minmax(200px, 1fr);
+    }
+}
+.d-grid-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+@media (max-width: 767px) {
+    .d-grid-1 {
+        grid-template-columns:minmax(200px, 1fr);
+    }
+}
+.gap-20 {
+    gap: 20px;
+}
+/* End diiplay */
+/* Start width */
+.w-full {
+    width: 100%;
+}
+.w-half {
+    width: 50%;
+}
+.w-300 {
+    width: 300px;
+}
+.w-30 {
+    width: 30px;
+}
+.w-50 {
+    width: 50px;
+}
+/* End width */
+/* Start height */
+.h-full {
+    height: 100%;
+}
+.v-h {
+    height: 100vh;
+}
+.h-half {
+    height: 50%;
+}
+.h-65 {
+    height: 65%;
+}
+.h-30 {
+    height: 30px;
+}
+.h-40 {
+    height: 40%;
+}
+.h-50 {
+    height: 50px;
+}
+/* End height */
+/* Start radios */
+.rad-50 {
+    border-radius: 50%;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-20 {
+    border-radius: 20px;
+}
+.radt-10 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.radb-10 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* End radios */
+/* Start position */
+.p-relative {
+    position: relative;
+}
+/* End position */
+/* Start button shabe */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgba(3, 3, 134, 0.655);
+}
+/* End button shabe */
