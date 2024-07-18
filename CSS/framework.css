@@ -31,6 +31,9 @@
 .mt-10 {
     margin-top: 10px;
 }
+.mt-15 {
+    margin-top: 15px;
+}
 .mt-20 {
     margin-top: 20px;
 }
@@ -40,8 +43,11 @@
 .mr-10 {
     margin-right: 10px;
 }
-.mb-50 {
-    margin-top: -100px;
+.mr-15 {
+    margin-right: 15px;
+}
+.mr-20 {
+    margin-right: 20px;
 }
 .ml-5 {
     margin-left: 5px;
