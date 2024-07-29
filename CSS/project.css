@@ -39,12 +39,13 @@ input {
 #checkstore:checked ~ .login {
     display: none;
 }
-#checkstore:checked ~ .main {
+#checkstore:checked ~ .main,
+#checkstore:checked ~ footer {
     display: flex;
 }
 /* End login */
 .main {
-    display: flex;
+    display: none;
     min-height: 100vh;
     margin: 0 10px;
     justify-content: space-between;
@@ -388,5 +389,11 @@ header img {
     .main .content {
         width: calc(100% - 75px);;
     }
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 /* -----------End contant----------- */
